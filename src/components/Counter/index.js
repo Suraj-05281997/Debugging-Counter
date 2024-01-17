@@ -20,10 +20,10 @@ class Counter extends Component {
       <div className="app-container">
         <h1 className="count">Count {count}</h1>
         <button className="button" onClick={this.onDecrement} type="button">
-          Increase
+          Decrease
         </button>
         <button className="button" onClick={this.onIncrement} type="button">
-          Decrease
+          Increase
         </button>
       </div>
     )
